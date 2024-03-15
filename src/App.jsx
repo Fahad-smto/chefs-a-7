@@ -20,15 +20,15 @@ function App() {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-xl">Recipe Calories</a>
+    <a class="btn btn-ghost text-xl font-serif">Recipe Calories</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
 
-      <li><a>Home</a></li>
-      <li><a>Recipes</a></li>
-      <li><a>About</a></li>
-      <li><a>Search</a></li>
+      <li><a className='font-serif'>Home</a></li>
+      <li><a className='font-serif'>Recipes</a></li>
+      <li><a className='font-serif'>About</a></li>
+      <li><a className='font-serif'>Search</a></li>
      
     </ul>
   </div>
@@ -58,6 +58,10 @@ function App() {
 
 </div>
 
+
+<h1 className='text-center mt-10 text-5xl font-bold font-serif'>Our Recipes</h1>
+
+<p className='text-center font-serif font-semibold mt-5'>They ensure a dish can be consistently prepared, allowing people to replicate the same results. <br /> Recipes serve as valuable guides and teaching tools for novice cooks.</p>
 
     </>
   )
