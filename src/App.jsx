@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import img1 from '../images/Frame.svg'
+import img2 from '../images/Rectangle 1.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -45,6 +46,19 @@ function App() {
   </div>
 </div>
       
+<div className="mx-auto mt-10"> 
+<div className="bg ">
+  <p className='text-white text-center pt-16 font-serif text-5xl'>Discover an exceptional cooking <br /> class tailored for you!</p>
+  <p className='text-white text-center pt-10 font-bold font-serif'>Cooking is the process of producing safe <br /> and edible food by preparing and combining ingredients, and (in most cases) applying heat.</p>
+
+  <button class="btn btn-success ml-[450px] mt-24 rounded-full">Explore Now</button>
+  <button class="btn btn-outline mt-24 ml-[50px] text-white rounded-full">Our Feedback</button>
+
+</div>
+
+</div>
+
+
     </>
   )
 }
