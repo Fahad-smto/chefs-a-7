@@ -1,0 +1,75 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Soy Sauce Chicken with Mushrooms",
+      "short_description": "A flavorful dish featuring tender chicken, savory soy sauce, and earthy mushrooms.",
+      "ingredients": ["550g chicken breast", "120 ml soy sauce", "300 g button mushrooms"],
+      "preparing_time": "45 minutes",
+      "calories": 350,
+      "recipe_image": "https://i.ibb.co/68rgf6f/Rectangle-20170.png"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Garlic Mushroom Chicken",
+      "short_description": "Delicious chicken cooked with garlic and mushrooms for a comforting meal.",
+      "ingredients": ["600g chicken thighs", "200g shiitake mushrooms", "5 cloves garlic"],
+      "preparing_time": "40 minutes",
+      "calories": 320,
+      "recipe_image": "https://i.ibb.co/QKq2R5H/Rectangle-20170-1.png"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Soy Glazed Chicken Stir-Fry",
+      "short_description": "Quick and easy stir-fry with soy-glazed chicken and fresh vegetables.",
+      "ingredients": ["500g chicken strips", "120 ml soy sauce", "Assorted bell peppers and broccoli"],
+      "preparing_time": "30 minutes",
+      "calories": 280,
+      "recipe_image": "https://i.ibb.co/br0TsW7/anh-nguyen-kc-A-c3f-3-FE-unsplash.jpg"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Mushroom Soy Chicken Bowl",
+      "short_description": "Healthy chicken and mushroom bowl seasoned with soy sauce.",
+      "ingredients": ["500g chicken tenders", "400 g shiitake mushrooms", "150g quinoa"],
+      "preparing_time": "50 minutes",
+      "calories": 380,
+      "recipe_image": "https://i.ibb.co/gRcV1k3/food-photographer-Ftpg-Fe-UQu-AY-unsplash.jpg"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Sesame Soy Chicken Skewers",
+      "short_description": "Tender chicken skewers marinated in sesame soy sauce for a flavorful dish.",
+      "ingredients": ["600g chicken breast strips", "120 ml sesame soy sauce", "Sesame seeds for garnish"],
+      "preparing_time": "35 minutes",
+      "calories": 300,
+      "recipe_image": "https://i.ibb.co/zZgHJ1N/lily-banse-YHSwy6uqvk-unsplash.jpg"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Mushroom Soy Noodle Stir-Fry",
+      "short_description": "A satisfying noodle stir-fry featuring mushrooms and soy-infused chicken.",
+      "ingredients": ["450g chicken breast slices", "400 g cremini mushrooms", "250g egg noodles","chili 5 g","garlic 5g"],
+      "preparing_time": "40 minutes",
+      "calories": 340,
+      "recipe_image": "https://i.ibb.co/cLgjmDy/chaewon-lee-s-BOl-XPYv9-M-unsplash.jpg"
+    },
+    {
+      "recipe_id": 7,
+      "recipe_name": "Asian Chicken Mushroom Soup",
+      "short_description": "Comforting soup with chicken and mushrooms in a flavorful Asian broth.",
+      "ingredients": ["600g chicken drumsticks", "400 g white mushrooms", "Chicken broth and Asian spices","20 g onion"],
+      "preparing_time": "55 minutes",
+      "calories": 320,
+      "recipe_image": "https://i.ibb.co/1TfL8zL/nathan-dumlao-8-Uv6ean-QWz-Y-unsplash.jpg"
+    },
+    {
+      "recipe_id": 8,
+      "recipe_name": "Teriyaki Mushroom Chicken",
+      "short_description": "Juicy chicken with savory teriyaki sauce and mushrooms for a tasty meal.",
+      "ingredients": ["550g chicken thighs", "400 g portobello mushrooms", "Teriyaki sauce"],
+      "preparing_time": "45 minutes",
+      "calories": 360,
+      "recipe_image": "https://i.ibb.co/JC0BXLh/eiliv-aceron-Zu-IDLSz3-XLg-unsplash.jpg"
+    }
+  ]
+  
