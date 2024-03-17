@@ -3,7 +3,7 @@ import Card from "./components/cards/Card";
 
  
 
-const FoodCards = () => {
+const FoodCards = ({handleAddCard}) => {
 
     const [foodCards,setFoodCards]= useState( [])
 
@@ -18,7 +18,10 @@ const FoodCards = () => {
         <div className="grid grid-cols-2 gap-4">
                
            {foodCards.map((card) => (
-           <Card key={card.recipe_id} card={card} />
+           <Card key={card.recipe_id} card={card}
+           handleAddCard ={handleAddCard}
+           />
+          
             ))}
  
              

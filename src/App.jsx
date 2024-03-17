@@ -6,7 +6,12 @@ import FoodCards from './FoodCards'
 import FoodSummary from './components/FoodSummary'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [AddCard, setAddCard] = useState([]);
+
+  const handleAddCard = card =>{
+     const newCard =[...AddCard,card];
+     setAddCard(newCard);
+  }
 
   return (
     <>
@@ -69,7 +74,7 @@ function App() {
 
 
 <div className="col-span-8">
-<FoodCards></FoodCards>
+<FoodCards handleAddCard ={handleAddCard}></FoodCards>
 
 
 </div>
@@ -77,7 +82,8 @@ function App() {
 
 <div className="col-span-4">
 
-<FoodSummary></FoodSummary>
+<FoodSummary AddCard ={AddCard}></FoodSummary>
+
 
 </div>
 
