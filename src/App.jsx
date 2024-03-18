@@ -4,6 +4,8 @@ import img1 from './images/Frame.svg'
 // import img2 from '../images/Rectangle 1.png'
 import FoodCards from './FoodCards'
 import FoodSummary from './components/FoodSummary'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
  
 
 function App() {
@@ -12,11 +14,15 @@ function App() {
   const handleAddCard = card =>{
      const newCard =[...AddCard,card];
      const alreadyExists = AddCard.find(c =>c.recipe_id == card.recipe_id);
-     if(!alreadyExists)
+    if(!alreadyExists)  {
+        toast.success("card added");
+        setAddCard(newCard);
+      }
+    else{
+      toast.warn('already added!');
+     }
 
-    //  setAddCard( c => [...c,card])
-
-     setAddCard(newCard);
+   
   }
 
   return (
@@ -95,7 +101,7 @@ function App() {
 
 
 </div>
- 
+   <ToastContainer/>
     </>
   )
 }
