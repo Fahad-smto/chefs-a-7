@@ -1,15 +1,21 @@
 import { useState } from 'react'
 import './App.css'
-import img1 from '../images/Frame.svg'
+import img1 from './images/Frame.svg'
 // import img2 from '../images/Rectangle 1.png'
 import FoodCards from './FoodCards'
 import FoodSummary from './components/FoodSummary'
+ 
 
 function App() {
   const [AddCard, setAddCard] = useState([]);
 
   const handleAddCard = card =>{
      const newCard =[...AddCard,card];
+     const alreadyExists = AddCard.find(c =>c.recipe_id == card.recipe_id);
+     if(!alreadyExists)
+
+    //  setAddCard( c => [...c,card])
+
      setAddCard(newCard);
   }
 
@@ -48,7 +54,7 @@ function App() {
 </label>
   </div>
     <div className="bg-[#0BE58A] rounded-full" >
-    <img  src={img1} alt="" />
+    <img  src={ img1} alt="" />
     </div>
   </div>
 </div>

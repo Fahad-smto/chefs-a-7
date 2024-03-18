@@ -8,10 +8,10 @@ const FoodCards = ({handleAddCard}) => {
     const [foodCards,setFoodCards]= useState( [])
 
     useEffect(() => {
-        fetch('./public/foodData.json')
+        fetch('/foodData.json')
         .then (res => res.json())
         .then(data => setFoodCards(data)) 
-      });
+      },[]);
 
 
     return (
